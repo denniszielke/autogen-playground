@@ -1,0 +1,4 @@
+python-dotenv==1.0.1
+azure-identity==1.19.0
+autogen-core==0.4.0.dev11
+autogen-ext[openai,azure,grpc]==0.4.0.dev11
