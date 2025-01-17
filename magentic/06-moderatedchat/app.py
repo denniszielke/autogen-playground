@@ -97,7 +97,7 @@ planning_agent = AssistantAgent(
     You only plan and delegate tasks - you do not execute them yourself.
 
     When assigning tasks, use this format:
-    1. <agent> : <task>
+    .<agent> : <task>
 
     After all tasks are complete, summarize the findings and end with "TERMINATE".
     """,

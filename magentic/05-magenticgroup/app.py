@@ -29,17 +29,21 @@ az_model_client = AzureOpenAIChatCompletionClient(
     # api_key="sk-...", # For key-based authentication.
 )
 
+
+
 # Define a tool
 async def get_weather(city: str) -> str:
     return f"The weather in {city} is 73 degrees and Sunny."
 
 
-def get_current_username() -> str:
+def get_current_username(input: str) -> str:
     "Get the username of the current user."
+    print("executing get_current_username")
     return "Dennis"
 
 def get_current_location(username: str) -> str:
     "Get the current timezone location of the user for a given username."
+    print("executing get_current_location")
     print(username)
     if "Dennis" in username:
         return "Europe/Berlin"

@@ -111,9 +111,9 @@ async def save_blog_agent(blog_content: str) -> str:
                 """    
                     and execute it according to the following requirements
 
-                    1. Save blog content to blog-{YYMMDDHHMMSS}.md
+                    .Save blog content to blog-{YYMMDDHHMMSS}.md
 
-                    2. give me the download this file link
+                    .give me the download this file link
                 """,
     )
     # create and execute a run
