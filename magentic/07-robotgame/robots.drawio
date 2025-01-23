@@ -1,0 +1,64 @@
+<mxfile host="65bd71144e">
+    <diagram id="faGGbrQdmR73Fwn8kxRj" name="Page-1">
+        <mxGraphModel dx="1871" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="Robot 1 Agent" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5BB6FC;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.waf_bot;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="330" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;" edge="1" parent="1" source="4" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Plan the usage of tools" style="shape=image;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OSA0OCI+PHBhdGggZD0iTTQxLjY4IDEyLjhhNi4zMzUgNi4zMzUgMCAwMS02LjMzNy02LjMzN2MwLTMuNSAyLjgzNi02LjMzNyA2LjMzNy02LjMzNyAzLjUgMCA2LjMzNyAyLjgzNiA2LjMzNyA2LjMzNy4wMDggMy41LTIuODI4IDYuMzM2LTYuMzM3IDYuMzM2em0wIDE3LjU4N2E2LjMzNSA2LjMzNSAwIDAxLTYuMzM3LTYuMzM3YzAtMy41IDIuODM2LTYuMzM2IDYuMzM3LTYuMzM2IDMuNSAwIDYuMzM3IDIuODM2IDYuMzM3IDYuMzM3LjAwOCAzLjQ5Mi0yLjgyOCA2LjMzNi02LjMzNyA2LjMzNnoiIGZpbGw9IiM1MEU2RkYiLz48cGF0aCBkPSJNMTIuNjE0IDE3LjcxNEgwdjEyLjYxNGgxMi42MTRWMTcuNzE0em0wLTE3LjcxNEgwdjEyLjYxNGgxMi42MTRWMHptMCAzNS4zODZIMFY0OGgxMi42MTRWMzUuMzg2eiIgZmlsbD0iIzAwNzhENCIvPjxwYXRoIGQ9Ik00MS42OCA0Ny45NjZhNi4zMzUgNi4zMzUgMCAwMS02LjMzNy02LjMzNiA2LjMzNiA2LjMzNiAwIDAxNi4zMzctNi4zMzdjMy41IDAgNi4zMzcgMi44MzYgNi4zMzcgNi4zMzcuMDA4IDMuNS0yLjgyOCA2LjMzNi02LjMzNyA2LjMzNnoiIGZpbGw9IiM1MEU2RkYiLz48cGF0aCBkPSJNMzEuNjE2IDQxLjgxNWwtNS4xMzMtNS4xMzN2Mi41NjZoLTcuNDU2djUuMTI1aDcuNDU2djIuNTY3bDUuMTMzLTUuMTI1em0wLTE3LjY3MmwtNS4xMzMtNS4xMzN2Mi41NjZoLTcuNDU2djUuMTI1aDcuNDU2djIuNTY3bDUuMTMzLTUuMTI1em0wLTE3LjczMUwyNi40ODMgMS4yOHYyLjU2N2gtNy40NTZWOC45OGg3LjQ1NnYyLjU2N2w1LjEzMy01LjEzNHoiIGZpbGw9IiMwMDc4RDQiLz48L3N2Zz4=;labelPosition=right;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="117.5" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;entryX=0.83;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Taxonomy" style="shape=image;verticalLabelPosition=middle;verticalAlign=middle;imageAspect=1;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OSI+PHBhdGggZD0iTTQ0LjUwNSA0Mi4yNjRINi42NDVsMTguMjIyLTI5LjU1IDE5LjYzOCAyOS41NXptLTMzLjMzOS0yLjUyN0gzOS43OWwtMTQuODQ2LTIyLjM0LTEzLjc3NyAyMi4zNHoiIGZpbGw9IiM1MEU2RkYiLz48cGF0aCBkPSJNNi42NTYgNi44MTVMNS43MTQgOS4xNmwxOC45NTEgNy42MTEuOTQyLTIuMzQ0LTE4Ljk1MS03LjYxeiIgZmlsbD0iIzUwRTZGRiIvPjxwYXRoIGQ9Ik02LjM0MSAxMy4xOTRhNC45NzcgNC45NzcgMCAxMDAtOS45NTMgNC45NzcgNC45NzcgMCAwMDAgOS45NTN6bTE4LjkyMiA3LjQ2MWE0Ljk3NyA0Ljk3NyAwIDEwMC05Ljk1MyA0Ljk3NyA0Ljk3NyAwIDAwMCA5Ljk1M3pNOC44MzQgNDYuMjEzYTQuOTc3IDQuOTc3IDAgMTAwLTkuOTUzIDQuOTc3IDQuOTc3IDAgMDAwIDkuOTUzem0zMi44MjUgMGE0Ljk3NyA0Ljk3NyAwIDEwMC05Ljk1MyA0Ljk3NyA0Ljk3NyAwIDAwMCA5Ljk1M3oiIGZpbGw9IiMwMDc4RDQiLz48L3N2Zz4=;labelPosition=right;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="670" y="210" width="70" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;" edge="1" parent="1" source="10" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Domain Specifc Language" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/ai_machine_learning/Language_Services.svg;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="400" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Robot 1" style="verticalLabelPosition=bottom;outlineConnect=0;align=center;dashed=0;html=1;verticalAlign=top;shape=mxgraph.pid.misc.tank_car,_tank_wagon;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="470" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="12" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Planner" style="shape=mxgraph.signs.healthcare.brain;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="100" width="98" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;" edge="1" parent="1" source="13" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Robot 2 Agent" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#5BB6FC;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.waf_bot;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="330" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;" edge="1" parent="1" source="14" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Robot 2" style="verticalLabelPosition=bottom;outlineConnect=0;align=center;dashed=0;html=1;verticalAlign=top;shape=mxgraph.pid.misc.tank_car,_tank_wagon;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="470" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;entryX=0.806;entryY=0.543;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="17" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="Location" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.map;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="360" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;" edge="1" parent="1" source="18" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="Locator" style="shape=mxgraph.signs.healthcare.brain;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="232.5" width="98" height="85" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

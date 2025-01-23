@@ -41,7 +41,7 @@ def get_current_username(input: str) -> str:
     print("executing get_current_username")
     return "Dennis"
 
-def get_current_location(username: str) -> str:
+def get_current_location_of_user(username: str) -> str:
     "Get the current timezone location of the user for a given username."
     print("executing get_current_location")
     print(username)
@@ -65,18 +65,18 @@ def get_current_time(location: str) -> str:
     
 
 users_agent = AssistantAgent(
-    "username_agent",
+    "users_agent",
     model_client=az_model_client,
     tools=[get_current_username],
-    description="A helpful assistant that can knows things about the user.",
-    system_message="You are a helpful assistant that can retrieve the name of the current user.",
+    description="A helpful assistant that can knows things about the user like the username.",
+    system_message="You are a helpful assistant that can retrieve the username of the current user.",
 )
 
 location_agent = AssistantAgent(
     "location_agent",
     model_client=az_model_client,
-    tools=[get_current_location],
-    description="A local assistant that can find out where a user lives.",
+    tools=[get_current_location_of_user],
+    description="A assistant that can find the physical location of a user.",
     system_message="You are a helpful assistant that can suggest details for a location and can utilize any context information provided.",
 )
 
@@ -84,7 +84,7 @@ time_agent = AssistantAgent(
     "time_agent",
     model_client=az_model_client,
     tools=[get_current_time],
-    description="A helpful assistant that knows details about locations.",
+    description="A helpful assistant that knows time in a specific location.",
     system_message="You are a helpful assistant that can retrieve the current time for a given location.",
 )
 
@@ -101,11 +101,10 @@ async def main() -> None:
     magenticteam = MagenticOneGroupChat([users_agent, location_agent, time_agent], model_client=az_model_client, termination_condition=inner_termination)
 
     # Run the team and stream messages to the console
-    stream = magenticteam.run_stream(task="what time is it?.")
+    stream = magenticteam.run_stream(task="what time is it here?.")
     await Console(stream)
 
     # async for message in stream:
     #     print(message)
-
 
 asyncio.run(main())

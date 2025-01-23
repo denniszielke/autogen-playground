@@ -1,4 +1,4 @@
 python-dotenv==1.0.1
-autogen-agentchat==0.4.2
-autogen-ext[openai,azure]==0.4.2
+autogen-agentchat==0.4.3
+autogen-ext[openai,azure]==0.4.3
 ipython==8.26.0
