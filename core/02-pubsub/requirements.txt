@@ -1,5 +1,5 @@
 python-dotenv==1.0.1
 azure-identity==1.19.0
-autogen-core==0.4.2
-autogen-ext[openai,azure,grpc]==0.4.2
+autogen-core==0.4.4
+autogen-ext[openai,azure,grpc]==0.4.4
 chainlit==1.3.2
