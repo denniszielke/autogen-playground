@@ -25,10 +25,9 @@ az_model_client = AzureOpenAIChatCompletionClient(
     model=os.getenv("AZURE_OPENAI_COMPLETION_MODEL"),
     api_version=os.getenv("AZURE_OPENAI_VERSION"),
     azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-    azure_ad_token_provider=token_provider,  # Optional if you choose key-based authentication.
-    # api_key="sk-...", # For key-based authentication.
+    #azure_ad_token_provider=token_provider,  # Optional if you choose key-based authentication.
+    api_key=os.getenv("AZURE_OPENAI_API_KEY"), # For key-based authentication.
 )
-
 
 
 # Define a tool
